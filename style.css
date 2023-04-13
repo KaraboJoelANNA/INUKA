@@ -1,0 +1,188 @@
+
+.fa{
+	padding: 20px;
+	width: 50px;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+.fa:hover{
+	opacity: 0.7;
+}
+.fa-facebook{
+	background: blue;
+	color: white;
+}
+.fa-twitter{
+	background: #55ACEE;
+	color: white;
+}
+.fa-instagram{
+	background: #FCAF45;
+	color: white;
+}
+ section{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: skyblue;
+         }
+        section .gti{
+            position: relative;
+            min-width: 1100px;
+            min-height: 550px;
+            display: flex;
+            z-index: 1000;
+        }
+        section .gti .contact-info{
+            position: absolute;
+            top: 40px;
+            width: 250px;
+            height: calc(80% - 80px);
+            background: #0f3959;
+            z-index: 1;
+             margin-top: 80px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+        }
+        section .gti .contact-info h2{
+            color: grey;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        section .gti .contact-info .info{
+            position: relative;
+            margin: 20px 0;
+        }
+        section .gti .contact-info .info li{
+            position: relative;
+            list-style: none;
+            display: flex;
+            margin: 20px 0;
+            cursor: pointer;
+            align-items: flex-start;
+        }
+        section .gti .contact-info .info li span:nth-child(1){
+            width: 30px;
+            min-width: 30px;
+        }
+        section .gti .contact-info .info li span:nth-child(1) img{
+            max-width: 100%;
+            filter: invert(1);
+            opacity: 0.5;
+        }
+        section .gti .contact-info .info li span:nth-child(2){
+            color: white;
+            margin-left: 10px;
+            font-weight: 300;
+            opacity: 0.5;
+        }
+        section .gti .contact-info .info li.hover span:nth-child(1) img,
+        section .gti .contact-info .info li.hover span:nth-child(2),
+         {
+            opacity: 1;
+         }
+section .gti .Contactform{
+     position: absolute;
+     padding: 100px 40px;
+     background: #fff;
+     margin-left: 150px;
+     margin-top: 80px;
+     padding-left: 250px;
+     width: calc(50% );
+     height: 70%;
+     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    }
+    section .gti .Contactform h2{
+    color: #0f3959;
+    font-weight: 500;
+    }
+section .gti .Contactform .formbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    }
+section .gti .Contactform .formbox .inputbox{
+    position: relative;
+    margin: 0 0 35px 0;
+     }
+section .gti .Contactform .formbox .inputbox.w50{
+    width: 47%;
+    }
+    section .gti .Contactform .formbox .inputbox.w100{
+    width: 100%;
+    }
+section .gti .Contactform .formbox .inputbox input,
+section .gti .Contactform .formbox .inputbox textarea{
+     width: 100% !important;
+     padding: 5px 0;
+     resize: none;
+     font-size: 18px;
+     font-weight: 300;
+     color: #333;
+     border: none;
+     border-bottom: 1px solid #777;
+     outline: none;
+     }
+section .gti .Contactform .formbox .inputbox textarea{
+ min-height: 120px; }
+section .gti .Contactform .formbox .inputbox span{
+     position: absolute;
+     left: 0;
+     padding: 5px 0;
+     font-size: 18px;
+     font-weight: 300;
+     color: #333;
+     transition: 0.5;
+     pointer-events: none;}
+section .gti .Contactform .formbox .inputbox input:focus~span,
+section .gti .Contactform .formbox .inputbox  textarea:focus~span
+section .gti .Contactform .formbox .inputbox input:valid~span,
+section .gti .Contactform .formbox .inputbox  textarea:valid~span
+     {
+     transform: translateY(-20px);
+     font-size: 12px;
+     font-weight: 400;
+     letter-spacing: 1px;
+     color: #ff568c;}
+section .gti .Contactform .formbox .inputbox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: #0f3959;
+     color: white;
+     border: none;
+     margin-top: 80px;
+        }
+.header{
+    text-align: center;
+    display: flex;
+    padding: 30px 100px;
+    left: 0;
+    top: 0;
+    width: 300%;
+    border-spacing: 30%;
+    align-items: flex-end;
+    border: 2px solid;
+    justify-content: space-between;
+    background-color: darkblue;
+    z-index: 100;
+    color: white;
+    position: fixed;
+    }
+        a{
+            margin: 70px;
+            text-decoration: none;
+            color: white;
+        }
+        h2{
+            color: red;
+        }
+        .topnav{
+            overflow: hidden;
+        }
